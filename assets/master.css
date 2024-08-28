@@ -409,7 +409,7 @@ color: #333333;
        min-height: 249px;
    
    }
-   .best .text-box h1{
+   .best .left-section .text-box h1{
        font-weight: 400;
        font-size: 48px;
        line-height: 70px;
@@ -1419,11 +1419,11 @@ padding: 10px 20px;
 .best .left-section{
     max-width: 503px;
     min-height: 249px;
-    margin: 90px 0 90px 0;
+    
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .best .container .content .right-section img{
