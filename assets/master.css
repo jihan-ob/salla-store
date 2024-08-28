@@ -1339,13 +1339,6 @@ padding-left: 25px;
 }
 
 
-.hero .container{
-    padding: 0 10px;
-    display: flex;
-   flex-direction: column;
-   align-items: center;
-    
-}
 .hero .icons{
     display: none;
 }
@@ -1422,12 +1415,26 @@ padding: 10px 20px;
     justify-content: center;
 
 }
-.best{
 
-min-height: 150px;
+.best .left-section{
+    max-width: 503px;
+    min-height: 249px;
+    margin: 90px 0 90px 0;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.best .right-section img{
-    display: none;
+
+.best .container .content .right-section img{
+ width: 100%;
+ object-fit: cover;
+ height: auto;
+}
+.best .container .content{
+    flex-direction: column;
+    gap: 10px;
+
 }
 
 .shop, .digital , .offers , .faster , .Reviews  , .brands , .categories{
