@@ -116,7 +116,6 @@ display: flex;
 .hero .container{
     position: relative;
     width: 100vw;
-    
     background-image: url(./images/sales1.png );
     background-size: cover;
     background-position: center;
@@ -128,6 +127,7 @@ display: flex;
  
   
 }
+/*
 .large-box{
     position: relative;
     width:calc(100% - 266px );
@@ -139,6 +139,7 @@ display: flex;
   box-sizing: border-box;
  
 }
+/*
 .hero .icons{
     position: absolute;
     top: 50%;
@@ -162,12 +163,15 @@ display: flex;
     width: 55px;
     border-radius: 30px;
     border: 1px solid #EEEEEE;
-}
-.hero .small-box{
-position: relative;
-z-index: 1;
+}*/
+.hero .container .small-box{
+max-width: 814px;
+min-height: 224px;
+margin: 134px 0 135px 0;
 text-align: center;
-max-width: 75%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .hero .small-box h1{
     font-weight: 400;
@@ -1336,16 +1340,19 @@ padding-left: 25px;
 
 
 .hero .container{
-    min-height: 150px;
+    padding: 0 10px;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
     
 }
 .hero .icons{
     display: none;
 }
-.large-box{
-    width: 60%;
-    padding:60px 0;
-}
+
+
+
+
 .hero .small-box .hero-button , .best .text-box .best-button{
     width:150px;
 }
