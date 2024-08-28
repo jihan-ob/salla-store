@@ -1411,12 +1411,12 @@ height: 150px;
     
 }
 
-.products .head{
+.products .head , .categories .head{
     flex-direction: column;
     align-items: flex-start;
     padding: 10px 20px;
 }
-.products .title{
+.products .title , .categories .title{
     width: 100%;
     margin-bottom: 10px;
     text-align: left;
@@ -1458,16 +1458,7 @@ height: 150px;
     padding: 10px 20px;
 }
 
-.categories .head   {
-    padding: 10px 20px;  
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
-   justify-content: center;
-   height: auto;
- box-sizing: border-box;
- margin-bottom: 30px; 
- }
+
 .brands .title , .Reviews .title , .offers .head , .{
     padding: 10px 20px;  
     flex-direction: column;
@@ -1479,7 +1470,7 @@ height: 150px;
   margin-bottom: 30px;    
 }
 
-.categories .head .categories-image,
+
 .offers .head .offers-button
 {
         display: none;
