@@ -243,16 +243,17 @@ line-height: 30px;
     display: flex; 
 flex-wrap: wrap;
 box-sizing: border-box;
-gap: 20px;
-    
+gap: 30px;
  
  }
 
  .Digital .container .card{
+    margin: 56px 70px;
 max-width: 597px;
      border-radius: 5px;
      min-height:290px ;
      border-radius: 2px;
+     
      
  }
  .digital .card img{
@@ -409,7 +410,7 @@ color: #333333;
        min-height: 249px;
    
    }
-   .best .left-section .text-box h1{
+   .best .text-box h1{
        font-weight: 400;
        font-size: 48px;
        line-height: 70px;
@@ -1318,6 +1319,7 @@ border: 1px solid #EEEEEE;
 {
 display: flex;
 flex-direction:column;
+
 align-items:center;
 padding: 0 20px;
 }
@@ -1325,6 +1327,7 @@ padding: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 6px;
 }
 .bottom-nav .icon {
     width: 30px; 
@@ -1419,11 +1422,11 @@ padding: 10px 20px;
 .best .left-section{
     max-width: 503px;
     min-height: 249px;
-    
+    margin: 90px 0 90px 0;
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .best .container .content .right-section img{
@@ -1443,13 +1446,7 @@ padding: 10px 20px;
 
 .categories .head , .offers .head , .Reviews .head , .brands .head{
     padding: 10px 20px;  
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
-   justify-content: center;
-   height: auto;
- box-sizing: border-box;
- margin-bottom: 30px; 
+ 
  }
 
 
