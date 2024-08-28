@@ -1410,21 +1410,18 @@ margin-top: 5px;
 height: 150px;
     
 }
-.products .title{
-padding: 10px 20px;
 
-}
 .products .head{
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 20px;
+  text-align: center;
+   padding: 10px 15px;
 }
 .products .title{
     width: 100%;
-    margin-bottom: 10px;
-    text-align: left;
+   padding: 0;
+   margin: 0;
 }
 
+}
 .products .container{
     padding: 10px 20px;
     margin-top: 5px;
