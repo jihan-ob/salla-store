@@ -1405,18 +1405,31 @@ margin-top: 5px;
 height: 150px;
     
 }
+.products .title{
+padding: 10px 20px;
+
+}
 .products .head{
-padding: 10px 20px;    
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.products .title{
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
-.products .head .image-button{
-    display: none;
-}
 .products .container{
     padding: 10px 20px;
     margin-top: 5px;
     justify-content: center;
 
+}
+.products .image-button{
+    margin-top: 10px;
+    padding: 10px 20px;
+   
 }
 
 .best .left-section{
@@ -1444,14 +1457,30 @@ padding: 10px 20px;
     padding: 10px 20px;
 }
 
-.categories .head , .offers .head , .Reviews .head , .brands .head{
+.categories .head   {
     padding: 10px 20px;  
- 
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   height: auto;
+ box-sizing: border-box;
+ margin-bottom: 30px; 
  }
-
+.brands .title , .Reviews .title , .offers .head , .{
+    padding: 10px 20px;  
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+  box-sizing: border-box;
+  margin-bottom: 30px;    
+}
 
 .categories .head .categories-image,
-.offers .head .offers-button{
+.offers .head .offers-button
+{
         display: none;
     }
 
