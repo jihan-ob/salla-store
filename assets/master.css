@@ -1345,14 +1345,9 @@ padding: 0 20px;
 margin: 20px 0 ;
 padding-left: 25px;
 }
-
-
 .hero .icons{
     display: none;
 }
-
-
-
 
 .hero .small-box .hero-button , .best .text-box .best-button{
     width:150px;
@@ -1373,10 +1368,8 @@ padding-left: 25px;
 .shop .content .item{
     align-items: self-start;
     padding:5px;
-    gap: 10px;
-   
-}
- 
+    gap: 10px;  
+} 
 .shop .content .item .box {
 max-width: 100%;
 margin: 0;
@@ -1403,20 +1396,19 @@ margin-top: 5px;
     margin: 0;
 }
 .digital .card img{ 
-    max-width: 100%;
-    
+    max-width: 100%;   
     display: block;
     min-width: 100%;
 height: 150px;
     
 }
 
-.products .head , .categories .head{
+.products .head , .categories .head , .offers .head{
     flex-direction: column;
     align-items: flex-start;
     padding: 10px 20px;
 }
-.products .title , .categories .title{
+.products .title , .categories .title , .offers .title{
     width: 100%;
     margin-bottom: 10px;
     text-align: left;
@@ -1428,7 +1420,7 @@ height: 150px;
     justify-content: center;
 
 }
-.products .image-button{
+.products .image-button , .categories .categories-button , .offers  .offers-button{
     margin-top: 10px;
    
 }
@@ -1459,60 +1451,34 @@ height: 150px;
 }
 
 
-.brands .title , .Reviews .title , .offers .head , .{
-    padding: 10px 20px;  
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    height: auto;
-  box-sizing: border-box;
-  margin-bottom: 30px;    
-}
-
-
-.offers .head .offers-button
-{
-        display: none;
-    }
-
-
-
 .offers .container , .faster .container {
     flex-direction: column;
     align-items: center;
     padding: 0 10px;
     margin-top:20px;
-}
-.offers .head .offers-image {
-display: none;
-    }        
-   
-    .offers .container .card {
+}    
+.offers .container .card {
 flex-direction: column;
 align-items: flex-start;
 max-width: 100%;
-    }
-   
-    .offers .container .card .right-section{
+}  
+.offers .container .card .right-section{
 width: 100%;
 text-align: center;
-    }
-    .offers .container .card .left-section{
+}
+.offers .container .card .left-section{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin-bottom: 16px;
-      
-    }
-    .offers .container .card .left-section img{
+        margin-bottom: 16px;     
+}
+.offers .container .card .left-section img{
         max-width: 100%;
         height: auto;
         display: block;
         margin: 0 auto;
-    }
-
+}
 .offers .container .card .right-section .form{
 display: flex;
 flex-direction: column;
@@ -1521,18 +1487,14 @@ justify-content: center;
 align-self: center;
 gap: 10px;
 margin: 16px 0;
-
-    }
-    .offers .container .card .right-section .form .item{
+}
+.offers .container .card .right-section .form .item{
         width: 100%;
         text-align: center;
         justify-content:flex-start;
         align-items: center;
         display: flex;
-        box-sizing: border-box;
-      
-      
-        
+        box-sizing: border-box;        
     }
     .offers .container .card .right-section .form .item .p{
         margin: 0;
@@ -1543,8 +1505,7 @@ margin: 16px 0;
         font-size: 10px;
         min-height: 48px;
         width: 100%;
-        text-align: center;
-        
+        text-align: center;        
     }
 .offers .container .card .right-section .last-box .btn-cart img{
         display: none;
