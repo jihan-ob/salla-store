@@ -243,27 +243,64 @@ line-height: 30px;
 flex-wrap: wrap;
 gap: 30px;
 margin: 56px 70px 57px 70px;
-
-
- 
  }
 
- .digital .container .card{ 
-   
+.digital .container .card1{ 
+position: relative; 
+width: 100vw;
+background-image: url(./images/JJ.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+min-height:243px;
 flex: 1;
 max-width: 100%;
 border-radius: 5px;
 min-height:290px ;
 border-radius: 2px;
-   
-     
+    
  }
- .digital .card img{
+ .digital .container .card2{ 
+    position: relative; 
+    width: 100vw;
+    background-image: url(./images/head.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height:243px;
+    flex: 1;
     max-width: 100%;
-    height: 100%;
-    object-fit: cover;
- }
-
+    border-radius: 5px;
+    min-height:290px ;
+    border-radius: 2px;       
+     }
+     .digital .container .small-box{
+        max-width: 276px;
+        min-height: 135px;
+        margin: 54px 297px 54px 24px;
+     }
+     .digital .container .small-box p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: #666666;
+     }
+     .digital .container .small-box h1{
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 49px;
+        color: #333333;
+     }
+     .digital .container .small-box .shop-digital{
+margin-top: 26px;
+margin-left: 40px;
+color: #333333;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+     }
 
 .products .container{
     margin: 32px 70px;
@@ -1387,26 +1424,21 @@ word-wrap: break-word;
     font-size: 12px;
 }
 
-.digital .container , .offers .container
-{
-padding: 0;
-gap:10px;
-flex-direction: column;
-margin-top: 5px;
-}
-.digital .card {
-    max-width: 100%;
-    padding: 0;
+.digital .container{
+    flex-direction: column;
+    gap: 10px;
     margin: 0;
+    padding: 0;
 }
-.digital .card img{ 
-    max-width: 100%;   
-    display: block;
-    min-width: 100%;
-height: 150px;
-    
+.digital .container .card1,
+.digital .container .card2{
+    width: 100%;
+  
 }
-
+.digital .container .small-box{
+    max-width: 100%;
+    margin: 25px;
+}
 .products .head , .categories .head , .offers .head{
     flex-direction: column;
     align-items: flex-start;
